@@ -7,13 +7,13 @@ export default function Navbar() {
         <div className={"flex justify-center items-center h-full"}>
           <ul className={"flex space-x-8 border border-sky-400"}>
             <li className={"hover:underline hover:text-white"}>
-              <Link href={"#"}>item 1</Link>
+              <Link href={"#"}>blog</Link>
             </li>
             <li className={"hover:underline hover:text-white"}>
-              <Link href={"#"}>item 2</Link>
+              <Link href={"#"}>portfolio</Link>
             </li>
             <li className={"hover:underline hover:text-white"}>
-              <Link href={"#"}>item 3</Link>
+              <Link href={"#"}>contact</Link>
             </li>
           </ul>
         </div>

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -10,9 +11,9 @@ export default function Home() {
       <Navbar />
       <main></main>
       <div className={"text-3xl w-full h-lvh flex justify-center items-center"}>
-        something is trully wrong here 012398
+        Hi, my name is Arash and something is trully wrong here 0123456789
       </div>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
